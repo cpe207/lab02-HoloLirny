@@ -1,0 +1,24 @@
+h3 {
+  text-align: center;
+  color: red;
+  font-style: italic;
+}
+
+.center-header {
+  color: red;
+  text-align: center;
+  font-style: italic;
+}
+
+.skill-container {
+  border: solid lightcoral;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+}
