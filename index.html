@@ -3,34 +3,118 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-
-  <body bgcolor="E1FFE1">
-    <h1 class="center-header">My Protfolio</h1>
-    <p style="text-align: center; margin-right: 10px">
-      <a href="index.html">Home</a>
-      |
-      <a href="contact.html">Contact</a>
-      |
-      <a href="Exp.html">Experience</a>
-    </p>
-
-    <img
-      src="https://scontent.fbkk22-4.fna.fbcdn.net/v/t39.30808-6/328893714_3430790207209817_3364339186789853658_n.jpg?_nc_cat=111&cb_f2e=control&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHvR4TzJKItn68EyJsM6-3qO1dG8cqm4PA7V0bxyqbg8E81ovdpwpkE1ubv0yQS9PoIoJ54kqABjtzgrkXm_C5a&_nc_ohc=FI-qfMSRcJUAX8FaIn_&_nc_ht=scontent.fbkk22-4.fna&oh=00_AfDDcBXAUoKdvS245ZAI4ac_BYoe-QJ9yPucVwfXZFOhJA&oe=649BA4EE"
-      width="250px"
-      height="250px"
-      style="margin-left: auto; display: block; margin-right: auto"
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
     />
-    <h3 class="center-header">Korarit Pannopasri</h3>
-    <p style="text-align: ceneter">
-      My name is nhun. Hi! Nice to meet you all.
-    </p>
-    <h3 class="center-header">Skill</h3>
-    <div class="skill-container">
-      <h3>Programming</h3>
-      <p>I have experience coding HTML, CSS, JavaScript, c++, python</p>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <div
+      class="d-flex border-bottom gap-5 bg-dark justify-content-center p-1 px-4"
+      style="margin-bottom: 1rem"
+    >
+      <div class="d-flex gap-5 fw-bold my-3 text-l">
+        <a href="index.html" class="text-light">Home</a>
+        <a href="exp.html" class="text-light">Experience</a>
+        <a href="gallery.html" class="text-light">Gallery</a>
+        <a href="contact.html" class="text-light">Contact</a>
+      </div>
     </div>
+    <div
+      class="d-flex justify-content-center align-items-center mx-auto gap-3"
+      style="max-width: 700px"
+    >
+      <div>
+        <img
+          src="https://scontent.fbkk22-4.fna.fbcdn.net/v/t39.30808-6/328893714_3430790207209817_3364339186789853658_n.jpg?_nc_cat=111&cb_f2e=control&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHvR4TzJKItn68EyJsM6-3qO1dG8cqm4PA7V0bxyqbg8E81ovdpwpkE1ubv0yQS9PoIoJ54kqABjtzgrkXm_C5a&_nc_ohc=SLzO55nY6vMAX8xKHbI&_nc_ht=scontent.fbkk22-4.fna&oh=00_AfCnazijD1YKSGGUK4y9N8iCqlfa-oTIwGk16i5qYxfM-w&oe=649D9F2E"
+          class="rounded-circle"
+          width="200"
+          height="200"
+          style="object-fit: cover"
+        />
+      </div>
+
+      <div class="d-none d-sm-block">
+        <div class="display-5 mb-3">Korarit Pannopasri</div>
+        <div class="text-muted">
+          Hi, my name is Korarit. I studying from Chiang Mai University. Studied
+          Computer Engineering. Love anime, musics, books and game in free
+          time...
+        </div>
+      </div>
+    </div>
+    <div class="display-5 d-sm-none text-center my-3">Korarit Pannopasri</div>
+
+    <p class="text-center fs-3">Skills</p>
+
+    <div style="max-width: 700px" class="mx-auto px-3">
+      <div class="d-flex border mb-3 shadow-sm my-rounded-all">
+        <div class="my-rounded-left">
+          <img
+            src="https://pilbox.themuse.com/image.jpg?filter=antialias&h=385&opt=1&pos=top-left&prog=1&q=keep&url=https%3A%2F%2Fcms-assets.themuse.com%2Fmedia%2Flead%2F01212022-1047259374-coding-classes_scanrail.jpg&w=700"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="my-rounded-left d-none d-sm-block"
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-semibold fs-5">Programming</p>
+          <span class="text-muted">
+            Coding is fun.I can write in C, C++, Python and Java.
+          </span>
+        </div>
+      </div>
+
+      <div class="d-flex border mb-3 shadow-sm my-rounded-all">
+        <div class="p-4">
+          <p class="fw-semibold fs-5">Cooking</p>
+          <span class="text-muted">
+            I enjoy cooking as a hobby, and I find it incredibly delicious as
+            well.
+          </span>
+        </div>
+        <div class="my-rounded-right">
+          <img
+            src="https://food.unl.edu/newsletters/images/mise-en-plase.jpg"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="my-rounded-right d-none d-sm-block"
+          />
+        </div>
+      </div>
+
+      <div class="d-flex border mb-3 shadow-sm my-rounded-all">
+        <div class="my-rounded-left">
+          <img
+            src="https://play-guitars.com/wp-content/uploads/2019/02/how-to-play-guitar-for-beginners-01.jpg"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="my-rounded-left d-none d-sm-block"
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-semibold fs-5">Music</p>
+          <span class="text-muted">
+            I regularly play the guitar because I love listening to music, and I
+            have competed in several events in the past.
+          </span>
+        </div>
+      </div>
+    </div>
+    <p class="text-center text-muted m-4">
+      © 2023 Korarit_pannopasri.com by Korarit pannopasri
+    </p>
   </body>
 </html>
